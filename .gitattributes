@@ -191,7 +191,7 @@ app.post('/notify-payment', (req, res) => {
   res.sendStatus(200);
 });
 
-// Start the server
+// Start the  server
 app.listen(3000, () => {
   console.log('Server is running on http://localhost:3000');
 });
